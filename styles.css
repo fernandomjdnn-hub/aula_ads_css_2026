@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination {
+    gap: 0px;
+    display: flex;
+}
+
+.box {
+    display: inline-block;
+    padding: 20px 20px;
+    border: rgb(252, 252, 252) solid 1px;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+.item:hover {
+    background-color: rgb(196, 17, 17);
+    color: white;
+    cursor: pointer;
+}
